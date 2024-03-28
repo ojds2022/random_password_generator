@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(176, 196, 222);
+}
+
+header {
+    text-align: center;
+}
+
+#main_section {
+    background-color: rgb(237, 242, 247);
+    width: 90%;
+    margin: auto;
+    padding: 3em;
+}
+
+#password_gen_section {
+    border: 3px dashed grey;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word; /* breaks the text to the next line */
+    text-align: center;
+}
+
+#password_gen_section_title {
+    color: grey;
+    font-size: 1.5em;
+}
+
+#gen_password_btn_sec {
+    text-align: center;
+    margin: 2em 0 0 0;
+}
+
+#gen_password_btn {
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(227, 75, 105);
+}
+
+#gen_password_btn:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+#password_parameters_section {
+    width: 50%;
+    margin: 1em auto;
+    display: none;
+    text-align: left;
+}
+
+#password_parameters_section_liner {
+    display: flex;
+    flex-direction: row;
+}
+
+#fieldset div {
+    margin: 1em 0;
+}
+
+#fieldset div input:hover {
+    cursor: pointer;
+}
+
+#fieldset p {
+    margin: 0;
+}
+
+#finish_gen_btn_sec {
+    align-self: center;
+    margin-left: 1em;
+}
+
+#finish_gen_btn {
+    border-radius: 5px;
+    border: none;
+    background-color: lightgreen;
+    font-size: 1em;
+    padding: 10px;
+}
+
+#finish_gen_btn:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+#secure_password {
+    font-size: 3em;
+}

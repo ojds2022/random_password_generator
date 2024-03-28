@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Password Generator</title>
+</head>
+<body>
+    <header>
+        <h1>Password Generator</h1>
+    </header>
+    <main id="main_section">
+        <h2>Generate a Password</h2>
+        <section id="password_gen_section">
+            <p id="password_gen_section_title">Your Secure Password</p>
+            <div id="secure_password"></div>
+            <div id="password_parameters_section">
+                <div id="password_parameters_section_liner">
+                    <fieldset id="fieldset">
+                        <legend>Choose your password's parameters:</legend>
+                      
+                        <div>
+                          <label for="lower_case">Lower Case Letters:</label>
+                          <input type="checkbox" id="lower_case" name="lower_case" />
+                        </div>
+                      
+                        <div>
+                          <label for="upper_case">Upper Case Letters:</label>
+                          <input type="checkbox" id="upper_case" name="upper_case" />
+                        </div>
+                        <div>
+                            <label for="numbers">Numbers:</label>
+                            <input type="checkbox" id="numbers" name="numbers" />
+                        </div>
+    
+                        <div>
+                            <label for="special_char">Special Characters:</label>
+                            <input type="checkbox" id="special_char" name="special_char" />
+                        </div>
+    
+                        <div>
+                            <p><label for="user_number_input">Length of Password:</label></p>
+                            <input type="range" id="user_number_input" name="user_number_inputt" min="8" max="128" step="1" />
+                            <p>Value: <output id="value"></output></p>
+                        </div>
+                    </fieldset>
+                    <div id="finish_gen_btn_sec">
+                        <button id="finish_gen_btn">Finish Generation</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="gen_password_btn_sec">
+            <button id="gen_password_btn">Generate Password</button>
+        </div>
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
